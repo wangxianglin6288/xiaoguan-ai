@@ -1,0 +1,15 @@
+{
+  "name": "xiaoguan-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "销冠AI - AI销售教练训练平台",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
